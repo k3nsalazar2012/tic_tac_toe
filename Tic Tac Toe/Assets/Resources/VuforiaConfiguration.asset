@@ -13,15 +13,16 @@ MonoBehaviour:
   m_Name: VuforiaConfiguration
   m_EditorClassIdentifier: 
   vuforia:
-    vuforiaLicenseKey: 
+    vuforiaLicenseKey: AT7ZHzL/////AAABmQb/2KOn6Uqul6behoO3hAAtpugg6UZ6ajLCNmcX2J/v33b7uG+6dM8xCMl+aeCl76t2yi3+Ptp2n0dFjrqjdKqZDe7GBsbrxNSATnaAszB5qkKnLZD8iKKBml1bFg6URB6sohijKeretZPJ2Nq1/ov2iJrYNBZMLABPtWohn6/9c2Nkbfnp7rGnWrSaUPsDda2HplRsAomo3xIWSw3RsnWL6uU6e8zHZ97hMdRE0+EBkc6BYP8STMXLkChO4flb9ItWeIxiYpzcZwXH37x1hky1TJDQY2ipSRDmd4wZjaoMmBGPR6z9z/sb7XSSkyn1cn+RU8M2RskbZtZ5QyL4ZKInJ6TIOjNlEMF9pDAhTz/6
     ufoLicenseKey: QVR3TDdiai8vLy8vQUFBQUtCYjEvWDEwTEVZYWcxV0N5N3VER3dWOGQ0L0JicXZxMlZJWGZHaXQ5MWd6dzJEeVhzNCtTZkRab1huWndUU2FRSWxoZTVGQzNqd2dOUDIrZUZ3dlpFV0RlVnQxTTVGQjZMeGNudHNCdVIyaXRPSnlmWnBnekRTWEo1SjBSeUN2RWIwZytHclA1VUJlVHNpTjlVTVZsWERxUldUMkp2NVZTWDIxT3VFVTd2cVl0V1lNRVdzQ0F1cXMzOFFBSUIyTkZLWldndVV0Wk8xWWY1U2xORHpIclFMNDNmODB3MVFBbFN1SW9mS1IvUWU0MGF2QnlUZFpETVBxWkZqYUxVZFRzN2dTYTNqUXp0MDYzSkgyUUhUN1dDdEJVN3BFS2FvUm5uSW5WVU9McmhITCt2VktGOHJTTHZjRExTM24wNThPWmRkSWovNm9CQ2JtZklYajgwaHVmT012amhacndxTXhmMHRrTi96TGFqV2U=
     delayedInitialization: 0
     cameraDeviceModeSetting: -1
     maxSimultaneousImageTargets: 1
     maxSimultaneousObjectTargets: 1
     useDelayedLoadingObjectTargets: 0
-    version: 1.0.0
-    eulaAcceptedVersions: 
+    modelTargetRecoWhileExtendedTracked: 1
+    version: 8.3.8
+    eulaAcceptedVersions: '{"Values":["7.5","8.0","7.1","7.2","7.7","8.1","0.0","8.3"]}'
   digitalEyewear:
     cameraOffset: 0.06
     distortionRenderingLayer: 31
@@ -48,12 +49,14 @@ MonoBehaviour:
   videoBackground:
     clippingMode: 0
     numDivisions: 2
-    videoBackgroundShader: {fileID: 0}
-    matteShader: {fileID: 0}
+    videoBackgroundShader: {fileID: 4800000, guid: f40623b353e2f1943b1b3ba42975db7a,
+      type: 3}
+    matteShader: {fileID: 4800000, guid: 66d0d78a3000021448b598bb54a3bfdf, type: 3}
     videoBackgroundEnabled: 1
   deviceTracker:
     autoInitTracker: 0
     autoStartTracker: 0
+    arcoreRequirement: 0
     trackingMode: 1
     posePrediction: 0
     modelCorrectionMode: 0
